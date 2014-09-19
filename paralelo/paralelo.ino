@@ -1,3 +1,10 @@
+void paralelo (int time ){
+  digitalWrite(13,HIGH) ;
+  delay(time);
+  digitalWrite(13,LOW);
+  delay(time);
+}
+
 void setup() {
   // put your setup code here, to run once:
 pinmode (13,OUTPUT);
